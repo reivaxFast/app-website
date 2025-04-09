@@ -2,6 +2,16 @@
     font-family: Poppins, sans-serif;
 }
 
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f6f8ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
 #signIn {
     display: flex;
     justify-content: center;
@@ -10,12 +20,13 @@
     flex-direction: column;
 }
 #signInEmail, #signInPassword {
-    width: 360px;
+    width: 350px;
     height: 64px;
     padding: 20px;
     margin-bottom: 10px;
     border: none;
     background-color: #F1F4FF;
+    color: #4b4b4b;
     font-size: 16px;
     border-radius: 10px;
     font-weight: 400;
@@ -31,7 +42,7 @@
     color: #1F41BB;
 }
 #signInButton {
-    width: 360px;
+    width: 350px;
     height: 64px;
     padding: 20px;
     background-color: #ECECEC;
