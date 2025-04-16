@@ -10,16 +10,16 @@
 
 </head>
 <body>
-    <canvas id="background"></canvas>
+    <canvas id="background" class="background"></canvas>
     <div id="contSU" class="cont"></div>
     <div id="signIn">
-        <h1 id="Title">Create Account</h1>
-        <h2 id="Subtitle">You've been missed</h2>
+        <h1 id="Title" class="Title">Create Account</h1>
+        <h2 id="Subtitle" class="Subtitle">Create account to unlock organisation freedom</h2>
         <input type="email" class="input" name="" id="SignInEmail" placeholder="Email" required>
         <input type="password" class="input" name="" id="SignInPassword" placeholder="Password" required>
         <input type="confirmPassword" class="input" name="" id="SignInPassword" placeholder="Confirm Password" required>
-        <button id="SignInButton">Create Account</button>
-        <a href="signIn.html" id="CreateLink">Sign in</a>
+        <input type="button" value="Create Account" class="button" id="SignInButton" onclick="signUp()">
+        <a href="signIn.html" id="SignLink" class="link">Sign in</a>
     </div>
     <script src="signUp.js"></script>
 </body>

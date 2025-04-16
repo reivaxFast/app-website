@@ -19,3 +19,6 @@ for (let i = 0; i < 6; i++) {
 }
 ctx.strokeRect(-15, canvas.height-285, 500, 300);
 ctx.fillRect(-15, canvas.height-245, 460, 300);
+function getOTP() {
+    location.href = 'otp.html';
+}

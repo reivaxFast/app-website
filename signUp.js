@@ -14,3 +14,6 @@ for (let i = 2; i < 8; i++) {
     ctx.strokeRect(-(15*i*i), -(15 * i*i),30*i*i, 30*i*i);
     ctx.restore();
 }
+function signUp() {
+    location.href = "otp.html";
+}

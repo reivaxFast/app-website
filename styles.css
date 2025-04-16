@@ -33,20 +33,15 @@ body {
     user-select: none;
 }
 
-#signInEmail:focus, #signInPassword:focus {
+.input:focus {
     outline: #1F41BB solid 2px;
 }
 
-#signInTitle {
-    font-size: 24px;
-    margin-bottom: 20px;
-    color: #1F41BB;
-    
-}
-#signInButton {
+.button {
     width: 350px;
     height: 64px;
     padding: 20px;
+    margin-bottom: 20px;
     background-color: #ECECEC;
     color: #0A0A0A;
     border: none;
@@ -57,38 +52,52 @@ body {
     transition: 0.1s;
     user-select: none;
 }
-#signInButton:hover {
+.button:hover {
     background-color: #1F41BB;
     color: white;
     transition: 0.1s;
 }
-#signInButton:active {
+.button:active {
     background-color: #ECECEC;
     color: #0A0A0A;
     transition: 0.1s;
 }
-#CreateLink, #ResetLink {
-    margin-top: 20px;
+.link {
+    margin-bottom: 20px;
     font-size: 14px;
     color: #494949;
     font-weight: 600;
     text-decoration: none;
     user-select: none;
 }
-#Title {
+#ResetLink {
+    margin-bottom: 0px;
+}
+
+#SignLink {
+    margin-bottom: 0px;
+}
+.Title {
+    margin-top: 0px;
+    text-align: center;
     font-size: 40px;
     margin-bottom: 20px;
     font-weight: bold;
     color: #1F41BB;
     background: none;
     user-select: none;
+    width: 350px;
 }
-#Subtitle {
+.Subtitle {
+    margin-top: 0px;
+    width: 350px;
     font-size: 20px;
     margin-bottom: 30px;
     user-select: none;
+    text-align: center;
 }
-#background {
+
+.background {
     position: absolute;
     top: 0;
     left: 0;
@@ -96,6 +105,7 @@ body {
 }
 
 .cont {
+    width: 380px;
     background: rgba(233, 255, 254, 0.2);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
@@ -107,9 +117,29 @@ body {
 
 #contSI {
     height: 500px;
-    width: 370px;
 }
+
 #contSU {
-    height: 550px;
-    width: 370px;
+    height: 584px;
+}
+#contFP {
+    height: 440px;
+}
+#contOTP {
+    height: 400px;
+}
+.otp {
+    width: 50px;
+    height: 64px;
+    padding: 20px;
+    margin: 3px;
+    margin-bottom: 20px;
+    text-align: center;
+    border: none;
+    background-color: #F1F4FF;
+    color: #4b4b4b;
+    font-size: 16px;
+    border-radius: 10px;
+    font-weight: 400;
+    user-select: none;
 }
